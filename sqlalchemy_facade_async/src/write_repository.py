@@ -6,7 +6,7 @@ from sqlalchemy.sql.expression import delete
 from sqlalchemy.ext.asyncio import AsyncEngine
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.dialects.postgresql import insert
-from sqlalchemy_facade.src.declarative_base import Entity
+from sqlalchemy_facade_async.src.declarative_base import Entity
 
 logger = logging.getLogger(__name__)
 

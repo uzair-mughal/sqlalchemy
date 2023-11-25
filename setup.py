@@ -13,7 +13,7 @@ setup(
     url="",
     download_url="",
     keywords=["AsyncIO", "SQLAlchemy"],
-    install_requires=["sqlalchemy==2.0.22", "asyncpg"],
+    install_requires=["sqlalchemy==2.*", "asyncpg"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

@@ -1,7 +1,7 @@
 from typing import List
 from sqlalchemy.schema import Sequence
 from sqlalchemy.ext.asyncio import AsyncEngine
-from sqlalchemy_facade.src.declarative_base import Entity
+from sqlalchemy_facade_async.src.declarative_base import Entity
 from sqlalchemy.schema import CreateSchema, CreateSequence
 
 
